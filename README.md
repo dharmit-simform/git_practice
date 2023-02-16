@@ -17,3 +17,4 @@ git cherry-pick is a powerful command that enables arbitrary Git commits to be p
 
 # Git Drop Commit
 For dropping some commits from the branch we have to reset the HEAD or we can squash some commits into only one commit. This can be done using the interactive rebase.
+Squashing commits into one single commit.
