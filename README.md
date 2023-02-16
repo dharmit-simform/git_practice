@@ -7,6 +7,7 @@ A merge request is simply a request from a user to merge their code from one bra
 
 # Git Rebase
 Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow. The primary reason for rebasing is to maintain a linear project history.
+Commands : git rebase <feature_branch>, git push -f
 
 # Change Commit History
 Git provides an interactive rebase to change the commit messages. The latest commit message can be changed by applyging git commit --amend. But for the earlier commit messages the change can be done using interactive rebase.
