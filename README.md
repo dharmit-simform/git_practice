@@ -10,6 +10,28 @@ The Git pull command is a combination of Git merge and Git fetch, meaning that t
 ## Git Merge
 A merge request is simply a request from a user to merge their code from one branch to another, typically to the master branch. Like the Git pull request, the Git merge request allows the team members to discuss the suggested changes and merges, offering feedback and possibly adding new commits to make the process smoother.
 
+```
+# Creating a New Branch
+git checkout -b branch1
+
+# Adding Some Files
+touch new-file3.js
+
+# Staging the Changes
+git add .
+
+# Committing the Change
+git commit -m "Feature Changes"
+
+# Switching to Main Branch
+git switch main
+
+# Merging the Branch1 with the Main Branch
+git merge branch1
+```
+
+![merged branch](https://github.com/dharmit27/git_practice/blob/main/screenshots/MergeBranch.png)
+
 ## Git Rebase
 Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow. The primary reason for rebasing is to maintain a linear project history.
 Commands : 
